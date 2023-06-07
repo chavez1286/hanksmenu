@@ -7,16 +7,18 @@
   <title>Menu</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif;
   background-image: url("https://github.com/chavez1286/hanksmenu/blob/main/HANKS%20FRONT%20DOOR.jpg?raw=true");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-      font-size: 60px; /* Increase the base font size */
-      font-family: Arial, sans-serif;
-      padding: 80px;
-      margin: 0;
-      font-family: Arial, sans-serif;
+}
+
+@media (max-width: 600px) {
+  body {
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
     }
 
     .menu {
