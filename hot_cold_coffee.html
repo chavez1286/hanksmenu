@@ -1,49 +1,78 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hot/Cold Coffee</title>
   <style>
     body {
-       font-family: Arial, sans-serif;
-  background-image: url("https://raw.githubusercontent.com/chavez1286/hanksmenu/main/lattes%20backround.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
       font-family: Arial, sans-serif;
-      padding: 20px;
+      background-image: url("path/to/your/background/image.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
       margin: 0;
-    }
-    h1 {
-      text-align: center;
-    }
-    ul {
-      list-style-type: none;
       padding: 0;
     }
-    li {
-      margin-bottom: 10px;
+
+    h1 {
+      text-align: center;
+      color: #fff; /* Optional: Adjust text color for better visibility on the background */
+      padding: 20px;
+    }
+
+    .menu {
+      text-align: center;
+      padding: 20px;
+    }
+
+    .menu-item {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      background-color: #e9e9e9;
+      font-weight: bold;
+      font-size: 14px;
+      color: #333;
+      margin: 10px;
+      text-decoration: none;
+    }
+
+    /* Media query for smaller screens */
+    @media (max-width: 600px) {
+      .menu-item {
+        width: 80px;
+        height: 80px;
+        font-size: 12px;
+        margin: 5px;
+      }
     }
   </style>
 </head>
+
 <body>
   <h1>Hot/Cold Coffee</h1>
-  <ul>
-    <li><a href="latte_12oz.jpg" target="_blank">Latte 12 oz</a></li>
-    <li><a href="latte_20oz.jpg" target="_blank">Latte 20 oz</a></li>
-    <li><a href="drip_coffee_12oz.jpg" target="_blank">Drip Coffee 12 oz</a></li>
-    <li><a href="drip_coffee_20oz.jpg" target="_blank">Drip Coffee 20 oz</a></li>
-    <li><a href="americano_12oz.jpg" target="_blank">Americano 12 oz</a></li>
-    <li><a href="cafe_de_olla_12oz.jpg" target="_blank">Café de Olla 12 oz</a></li>
-    <li><a href="cafe_de_olla_20oz.jpg" target="_blank">Café de Olla 20 oz</a></li>
-    <li><a href="cappuccino_12oz.jpg" target="_blank">Cappuccino 12 oz</a></li>
-    <li><a href="cappuccino_20oz.jpg" target="_blank">Cappuccino 20 oz</a></li>
-    <li><a href="matcha_latte_12oz.jpg" target="_blank">Matcha Latte 12 oz</a></li>
-    <li><a href="matcha_latte_20oz.jpg" target="_blank">Matcha Latte 20 oz</a></li>
-    <li><a href="lavender_rose_latte_12oz.jpg" target="_blank">Lavender Rose Latte 12 oz</a></li>
-    <li><a href="lavender_rose_latte_20oz.jpg" target="_blank">Lavender Rose Latte 20 oz</a></li>
-    <li><a href="pirate_chai_12oz.jpg" target="_blank">Pirate Chai 12 oz</a></li>
-    <li><a href="loose_tea_12oz.jpg" target="_blank">Loose Tea 12 oz</a></li>
-    <li><a href="loose_tea_20oz.jpg" target="_blank">Loose Tea 20 oz</a></li>
+  <div class="menu">
+    <a href="#" class="menu-item">Latte 12 oz</a>
+    <a href="#" class="menu-item">Latte 20 oz</a>
+    <a href="#" class="menu-item">Drip Coffee 12 oz</a>
+    <a href="#" class="menu-item">Drip Coffee 20 oz</a>
+    <a href="#" class="menu-item">Americano 12 oz</a>
+    <a href="#" class="menu-item">Café de Olla 12 oz</a>
+    <a href="#" class="menu-item">Café de Olla 20 oz</a>
+    <a href="#" class="menu-item">Cappuccino 12 oz</a>
+    <a href="#" class="menu-item">Cappuccino 20 oz</a>
+    <a href="#" class="menu-item">Matcha Latte 12 oz</a>
+    <a href="#" class="menu-item">Matcha Latte 20 oz</a>
+    <a href="#" class="menu-item">Lavender Rose Latte 12 oz</a>
+    <a href="#" class="menu-item">Lavender Rose Latte 20 oz</a>
+    <a href="#" class="menu-item">Pirate Chai 12 oz</a>
+    <a href="#" class="menu-item">Loose Tea 12 oz</a>
+    <a href="#" class="menu-item">Loose Tea 20 oz</a>
     <li><a href="https://github.com/chavez1286/hanksmenu/blob/main/cocochata_latte_12oz.jpg?raw=true" target="_blank">cocochata_latte_12oz</a></li>
   </ul>
 </body>
